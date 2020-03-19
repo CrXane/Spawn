@@ -12,7 +12,7 @@ create_server () {
  mv hlds.zip ..
  chmod +x hlds_run
  chmod +x hlds_linux
- screen -A -m -d -S hlds$1 ./hlds_run -console -game cstrike +ip $3 +port $port +maxplayers 16 +map de_dust2 +hostname aLbanesoNET$2
+ screen -A -m -d -S hlds$1 ./hlds_run -console -game cstrike +ip $3 +port $port +maxplayers 16 +map de_dust2 +hostname Server$2
  cd ..
  echo $2") ("$1") "$3":"$port
  ((port++))
