@@ -25,8 +25,6 @@ create_server () {
 	((port++))
 }
 
-cd mass-servers
-
 port=27015
 counter=1
 
